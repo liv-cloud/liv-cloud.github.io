@@ -1,0 +1,20 @@
+<section class="none">
+
+  <div>
+    <!-- page home classic -->
+    {%- include item-first-page.html content="Accueil" url="/index2.html" -%}
+
+    {%- assign _books = site.books | sort: "title_book" -%}
+
+    {%- assign _prec_title = _books.first.title_book -%}
+    {%- include item-first-page.html content=_prec_title -%}
+
+    {%- for book in _books offset:2 -%}
+      {%- unless book.title_book == _prec_title -%}
+        {%- include item-first-page.html content=book.title_book url=book.url -%}
+        {%- assign _prec_title = book.title_book -%}
+      {%- endunless -%}
+    {%- endfor -%}
+</div>
+</section>
+

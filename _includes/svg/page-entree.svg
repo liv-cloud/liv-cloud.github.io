@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<style>
+  .way_cloud{
+    fill:none;
+  }
+  /*#masque ellipse	{
+    fill:url(maskContentUnits.svg#degrade_du_masque);}
+  image{mask:url(maskContentUnits.svg#masque);}
+  stop{stop-color:white;}
+  #stop1{stop-opacity:1;}
+  #stop2{stop-opacity:0.5;}
+  #stop3{stop-opacity:0;}*/
+</style>
+
+<!-- <svg width="100vw" height="100vh" xml:lang="fr" viewBox="0 0 100% 100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->
+<svg width="1000" height="1000" xml:lang="fr" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path id="path1" class="way_cloud" d="M 500,500 A 500 500 0 0 1 500 500 Z" />
+  <path id="path2" class="way_cloud" d="M -365,80 A 1200 200 0 0 1 -365 420 Z" />
+  <g>
+    <!-- <image xlink:href="assets/images/nuage.png" x="0" y="0"> -->
+    {%- include svg/nuage.svg -%}
+    <text id="ligne1" x="180" y="150"><a href="{{ site.url }}/contact"> contact </a></text>
+    <animateMotion begin="0s" dur="60s" repeatDur="indefinite">
+      <mpath xlink:href="#path1"/>
+    </animateMotion>
+  </g>
+  <g>
+    {%- include svg/nuage.svg -%}
+    <text id="ligne2" x="180" y="150"><a href="{{ site.url }}/skills-and-offers"> skill</a></text>
+    <animateMotion begin="0s" dur="50s" repeatDur="indefinite">
+      <mpath xlink:href="#path2"/>
+    </animateMotion>
+  </g>
+</svg>

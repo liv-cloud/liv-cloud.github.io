@@ -1,0 +1,85 @@
+---
+title_book: Le Livre
+chapter: 1
+title_chapter: Démarrons
+subchapter: 1
+title_subchapter: Au départ
+page_subchapter: 2
+title_page: L’Intelligence sait intelliger le Savoir
+---
+
+<br/>
+« Bonjour » « Bonjour » « Présentons nous » dit le Savoir<br/>
+« Oui » répondit l’intelligence « Faisons le »<br/>
+Le Savoir « S’ils sont intelligents, comprends-le<br/>
+Ils auront déjà compris sans même nous voir »<br/>
+<br/>
+« Qui commence ? » l’Intelligence ne sachant <br/>
+Savoir « Tu ne sauras donc jamais commencer ? »<br/>
+L’Intelligence « Je suis là pour débuter<br/>
+Toujours en premier après c’est toi le savant »<br/>
+<br/>
+« Ben vazy alors démarre si tu es vive »<br/>
+Savoir aime le dernier mot, pas le premier<br/>
+Intelligence « Sans l’écrit, où commencer ? »<br/>
+« Intelligence … Aurais-tu besoin d’un saint Yves ? »<br/>
+<br/>
+« Cékiça ? » « Encore un truc que tu ne sais pas<br/>
+On va bientôt te juger inintelligente »<br/>
+« Du calme ! Tout de suite tu m’indiligentes !<br/>
+Le Savoir, c’est toi, pas moi. Emboîte le pas »<br/>
+<br/>
+« Ah! » Savoir « Je mémorise beaucoup de choses »<br/>
+« Oui, c’est ton boulot, il me semble, pas le mien<br/>
+L’intelligence n’est pas jugement en bien<br/>
+En mal, le savoir me remet en juste place »<br/>
+<br/>
+Ah !, aussitôt « Salut, vous m’avez appelé ? » <br/>
+« Qui es tu  ? » Le Savoir perplexe devant ce Ah !<br/>
+L’Intelligence rit de bon cœur « Tu ne sais pas ? »<br/>
+« Comment le saurai-je ? Jamais vu cet épelé »<br/>
+<br/>
+Ah ! « Si, tu m’as peut-être simplement oublié ? »<br/>
+Savoir « je n’oublie rien ! » Ah ! « ben si, désolé »<br/>
+Intelligence, par cette joute, gondolée<br/>
+« Arrête d’être bête ! » Le Savoir à la pliée<br/>
+<br/>
+L’Intelligence « Moi, je le crois ! » vers le Savoir<br/>
+« Tu crois n’importe quoi !  C’est moi le bien pensant »<br/>
+L’Intelligence « Encore un oubli en passant »<br/>
+Savoir « Ah ! Puisque tu le sais, fais ton devoir »<br/>
+<br/>
+Ah! « Moi ? » L’Intelligence « Oui à toi les bons mots »<br/>
+Le Savoir « Pourquoi lui ? Il ne sort de nulle part »<br/>
+« Détrompe-toi » L’Intelligence « C’est un départ »<br/>
+Ce petit Ah ! Semble connaître les bons mots »<br/>
+<br/>
+Savoir « Me tromper ? Ici, je suis le savant ! »<br/>
+Ah ! Regarde Intelligence ne voulant vexer<br/>
+Le Savoir « C’est impossible ! » sur sa lancée<br/>
+Intelligence « Si tu étais méconnaissant ? »<br/>
+<br/>
+Le Savoir, sûr de lui, sait qu’il ne reconnaît<br/>
+Le Ah ! pas dans la facilité « Pourrais-je ? »<br/>
+Le Savoir « Non ! Je te reconnais, sacrilège »<br/>
+Ah ! « Mais non … » Intelligence « Orgueilleux, tu es »<br/>
+<br/>
+« Je vais œuvrer puisque je suis l’intelligence.<br/>
+Comme je suis la capacité d’ouvrir des voies<br/>
+Je crois ce tout petit Ah capable de voix<br/>
+En bonnes paroles, il va donner du sens »<br/>
+<br/>
+Ah « Merci. Mon bon Savoir, depuis tout ce temps<br/>
+Tu sembles ne pas te souvenir que je suis<br/>
+De vos deux principes, un des nombreux produits<br/>
+Où Intelligence fait Savoir s’il se comprend<br/>
+<br/>
+Mère nature dans les existants a donné<br/>
+Le moyen d’exprimer l’Intelligence de Vie<br/>
+Figeant les expériences apprises en vie<br/>
+Dans les chairs, bon Savoir, tu es emprisonné<br/>
+<br/>
+L’Intelligence en dynamique évolue<br/>
+Sur sa ligne sans se perdre en notion<br/>
+D’un bien,  d’un mal, logique opposition<br/>
+Des raisonnements évolués quand tu as lu<br/>
