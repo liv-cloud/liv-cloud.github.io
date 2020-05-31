@@ -1,5 +1,4 @@
 html{
-    min-height:100vh;
 }
 
 body{
@@ -15,20 +14,31 @@ body{
     width:100%; 
     height:100%;
 }
+div.content-first-page{
+    border: 2px solid #000000;
+    min-height: 100vh;
+    margin: 2em;
+    padding: 2em;
+}
 
 div.item-first-page{
-    position: relative; 
+    border: 2px solid #000000;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    margin: 2em;
+    padding: 2em;
     float:left; 
-    top:10vw; 
-    left:5vh; 
     width: 15vw;
 }
 div.img-item-first-page{
     background-image:url('/assets/images/nuageA.png');
     background-size: 100% 100%; 
-    padding: 2em 4em;
+    padding: 2em;
 }
 
 h2.text-item-first-page{
     position: center center;
-    text-align: center;}
+    text-align: center;
+    min-width: min-content;
+}
