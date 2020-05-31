@@ -9,10 +9,12 @@
   <body style="min-height:100vh;margin:0;padding: 0;background-image: url('assets/images/ciel.jpg');background-size: 100% 100%;background-attachment:fixed;">
     <div style="width:100%; height:100%;">
           {% include first-page.html %}
-    </div>      
+    </div>     
+
+  <!-- héritage a modifier !! avec mon js
     <script type="text/javascript" src="{{ '/assets/libs/jquery-3.4.1.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/libs/jquery-migrate-3.0.1.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/panthera-jekyll.js?v=' | append: site.github.build_revision | relative_url }}"></script>
-  
+  -->
   </body>
 </html>
