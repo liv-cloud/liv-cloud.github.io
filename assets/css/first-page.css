@@ -40,5 +40,5 @@ div.img-item-first-page{
 h2.text-item-first-page{
     position: center center;
     text-align: center;
-    min-width: min-content;
+    min-width: fit-content;
 }
