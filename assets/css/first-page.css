@@ -1,0 +1,34 @@
+html{
+    min-height:100vh;
+}
+
+body{
+    min-height:100vh;
+    margin:0;
+    padding: 0;
+    background-image: url('/assets/images/background-first-page.jpg');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+
+#main{
+    width:100%; 
+    height:100%;
+}
+
+div.item-first-page{
+    position: relative; 
+    float:left; 
+    top:10vw; 
+    left:5vh; 
+    width: 15vw;
+}
+div.img-item-first-page{
+    background-image:url('/assets/images/nuageA.png');
+    background-size: 100% 100%; 
+    padding: 2em 4em;
+}
+
+h2.text-item-first-page{
+    position: center center;
+    text-align: center;}

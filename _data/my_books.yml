@@ -1,0 +1,11 @@
+- mybook: default
+  theme : default
+
+- mybook: Le Livre
+  theme : le_livre1
+
+- mybook: Le Livre de la Vie
+  theme : le_livre2
+
+- mybook: La poésie au quotidien
+  theme : le_livre3
