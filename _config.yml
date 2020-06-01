@@ -41,12 +41,16 @@ subtitle: Chercheuse, expérimentatrice et éprouvette
 
 # Side Menu Links
 menu:
-  - text: A venir
-    link: /
+  - text: Accueil
+    link: /index2
     icon: ""
 
-  - text: Mon résumé              
-    link: /resume
+  - text: Le journal
+    link: /blog
+    icon: ""
+
+  - text: Dernière activité
+    link: /last
     icon: ""
 
 ## customized 

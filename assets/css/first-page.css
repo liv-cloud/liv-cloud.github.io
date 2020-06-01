@@ -23,9 +23,11 @@ div.content-first-page{
 
 div.item-first-page{
     border: 2px solid #000000;
-    position: relative;
+    position: absolute;
+ /*
     top: 40px;
     left: 40px;
+ */
     margin: 2em;
     padding: 2em;
     float:left; 
@@ -42,3 +44,64 @@ h2.text-item-first-page{
     text-align: center;
     min-width: fit-content;
 }
+
+/* test */
+.cadre-exemple{
+    position:relative;
+    border:1px solid #ddd;
+    height:150px;
+    width:150px;
+  }
+  #exemple1 .defaut{
+    position:absolute; 
+    top:0;
+    left:0;
+    height:150px;
+    width:150px;
+  }
+  #exemple1 #calque1{
+    background:green; 
+    height:150px;
+    width:25px;
+    -z-index:1; 
+  }
+  #exemple1 #calque1-1{
+    height:125px;
+    width:50px;
+    background:#3F0;
+    z-index:1; 
+    left:30px;
+    top:10px;
+  }
+  #exemple1 #calque1-2{
+    height:100px;
+    width:75px;
+    background:#6FF;
+    z-index:4; 
+    left:40px;
+    top:20px;
+  }
+  #exemple1 #calque2{
+    background:red; 
+    height:75px;
+    width:100px;
+    -z-index:2;  
+    left:10px;
+    top:10px;
+  }
+  #exemple1 #calque2-1{
+    background:#F60;
+    z-index:2;
+    height:50px;
+    width:125px; 
+    left:20px;
+    top:30px;
+  }
+  #exemple1 #calque2-2{
+    background:#F90;
+    z-index:3;
+    height:25px;
+    width:100px; 
+    left:10px;
+    top:40px;
+  }

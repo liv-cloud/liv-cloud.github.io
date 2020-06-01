@@ -1,20 +1,48 @@
 <section>
-
   <div class="content-first-page">
-    <!-- page home classic -->
-    {%- include item-first-page.html content="Accueil" url="/index2.html" -%}
+    <!-- begin page home classic / in "/_config.yml" / -->
+    {% if site.menu %}
+      {% for menu in site.menu %}
+        <div class="item-first-page" style='top: 10vh; left: {%- cycle "_line1_pos_left": "5%", "35%", "65%" -%};'>
+          <a href="{{ menu.link | relative_url }}">
+            <div class="img-item-first-page">
+                <h2 class="text-item-first-page">{{ menu.text }}</h2>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    {% endif %}
 
-    {%- assign _books = site.books | sort: "title_book" -%}
-
-    {%- assign _prec_title = _books.first.title_book -%}
-    {%- include item-first-page.html content=_prec_title -%}
-
-    {%- for book in _books offset:2 -%}
+    <!-- end page home classic -->
+    
+    <!-- loop on books / See in "/_books/""all "title_book" unless they exist or not in "/_data/my_books.yml" -->
+    {%- assign _menu_books = site.books | sort: "title_book" -%}
+    {%- assign _prec_title = "" -%}
+    {%- for book in _menu_books -%}
       {%- unless book.title_book == _prec_title -%}
-        {%- include item-first-page.html content=book.title_book url=book.url -%}
+        <div class="item-first-page"
+        style='top: {%- cycle "pos_top": "35vh", "35vh", "35vh", "60vh", "60vh", "60vh", "95vh", "95vh", "95vh" -%};
+        left: {% cycle "pos_left": "15%", "45%", "75%", "5%", "35%", "65%" %};'>
+          <a href="{{ book.url }}"> 
+            <div class="img-item-first-page">
+                <h2 class="text-item-first-page"> {{ book.title_book }}</h2>
+            </div>
+          </a>
+        </div>
         {%- assign _prec_title = book.title_book -%}
       {%- endunless -%}
     {%- endfor -%}
-</div>
+  </div>
+
+  <div class="cadre-exemple" id="exemple1" >
+    <div id="calque1" class="defaut">
+      <div id="calque1-1" class="defaut"></div>
+      <div id="calque1-2" class="defaut"></div>
+    </div>
+    <div id="calque2" class="defaut">
+      <div id="calque2-1" class="defaut"></div>
+      <div id="calque2-2" class="defaut"></div>
+    </div>
+  </div>
 </section>
 
