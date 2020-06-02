@@ -1,0 +1,45 @@
+---
+layout: main_page
+---
+
+<!--récupérer tous les books dans /data/my_books.yml -->
+{%- assign _tmp = site.data.my_books.size | minus: 1 -%}
+{% for i in (0.._tmp) %}
+    <div><br/>{{ site.data.my_books[i].book_number.book_title }}</div>
+
+    {%- assign _tmp1 = site.data.my_books[i].book_number.chapters.size | minus: 1 -%}
+    {% for j in (0.._tmp1) %}
+        <div>--> {{ site.data.my_books[i].book_number.chapters[j] }}</div>
+        {%- include snippets/find_books.md _book_nb=i _chapter_nb=j -%}
+        {%- for _book in __return -%}
+            <div>--> page:{{_book.page_chapter}} : <a href={{ _book.url }}> {{_book.page_title}}</a></div>
+        {%- endfor -%}
+    {%- endfor -%}
+{%- endfor -%}
+<!--récupérer tous les fichiers des books -->
+{%- assign _var_books = site.books -%}
+
+{%- for _book in _var_books -%}
+    <div>{{ _book.book_nb }}</div>
+    <div>{{ _book.chapter }}</div>
+    <div>{{ _book.page_chapter }}</div>
+    <div>{{ _book.page_title }}</div>
+{%- endfor -%}
+
+{%- for _books in site.data.my_books -%}
+<div>{{ _books }}</div>
+<div> => {{ site.data[_books.number]}} ...</div>
+{%- endfor -%}
+<!-- fabriquer le toc -->
+
+<!-- afficher le toc -->
+<!-- 
+    _book.title_book
+    _book.chapter
+    _book.title_chapter
+    _book.subchapter
+    _book.title_subchapter
+    _book.page_subchapter
+    _book.title_page
+    -->
+

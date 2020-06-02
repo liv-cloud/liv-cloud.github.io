@@ -1,11 +1,9 @@
 ---
-title_book: La poésie au quotidien
+layout: page
+book_nb: 3
 chapter: 1
-title_chapter: Rubaiyat
-subchapter: 1
-title_subchapter: En 2020
-page_subchapter: 1
-title_page: Les arts en complexes tuyautés
+page_chapter: 1
+page_title: Les arts en complexes tuyautés
 --- 
 
 <table style="width:100%; border-collapse:collapse; background-image:url('https://i.servimg.com/u/f89/19/50/02/46/pompid10.jpg');background-size: 100% 100%;">

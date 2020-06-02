@@ -36,9 +36,6 @@ defaults:
     values:
       layout: default
 
-title: "La Vie ? Pourquoi ?"
-subtitle: Chercheuse, expérimentatrice et éprouvette
-
 # Side Menu Links
 menu:
   - text: Accueil
@@ -56,15 +53,12 @@ menu:
 ## customized 
 collections:
   books: # use for themes => default poetry technical computing others
-    title_book: # Le Livre
-    chapter: # chapter_1
-    title_chapter: # Démarrons
-    subchapter: # subchapter_1
-    title_subchapter: # Au départ
-    page_subchapter: # subchapter_page_1
-    title_page: # title of the page
-    sort_by: [ title_book ] # , chapter , subchapter , page_subchapter ]
-    order: [ title_book , chapter , subchapter , page_subchapter ]
+    book_nb: # number of the book 1, 2, 3
+    chapter: # number of the chapter
+    page_chapter: # number of the page in the chapter
+    page_title: # title of the page
+    sort_by: [ book_nb ] # , chapter , subchapter , page_subchapter ]
+    order: [ book_nb , chapter , page_chapter ]
     output: true
   
 plugins:

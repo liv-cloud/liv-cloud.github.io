@@ -1,11 +1,30 @@
-- mybook: default
-  theme : default
 
-- mybook: Le Livre
-  theme : le_livre1
+- book_number: # [0]
+      book_title: default
+      book_theme : default
+      chapters:
+        1: Tous
 
-- mybook: Le Livre de la Vie
-  theme : le_livre2
+- book_number: # [1]
+    book_title: Le Livre
+    book_theme : le_livre1
+    chapters:
+      0: Introduction # valeur "0" nécessaire !
+      1: Démarrons
+      2: Les origines
+      3: psychotons
 
-- mybook: La poésie au quotidien
-  theme : le_livre3
+- book_number: # [2]
+    book_title: Le Livre de la Vie
+    book_theme : le_livre2
+    chapters:
+      0: Introduction # valeur "0" nécessaire !
+      1: # indéterminé
+
+- book_number: # [3]
+    book_title: La poésie au quotidien
+    book_theme : le_livre3
+    chapters:
+      0: Introduction # valeur "0" nécessaire !
+      1: Rubayait
+      2: In life

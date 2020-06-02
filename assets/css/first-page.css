@@ -29,12 +29,12 @@ div.item-first-page{
 div.img-item-first-page{
     background-image:url('/assets/images/nuageA.png');
     background-size: 100% 100%; 
-    padding: 1em;
     min-width: fit-content;
 }
 
 h2.text-item-first-page{
     position: center center;
     text-align: center;
+    padding: 2em;
     min-width: fit-content;
 }

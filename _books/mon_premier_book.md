@@ -1,11 +1,9 @@
 ---
-title_book: Le Livre
-chapter: 1
-title_chapter: Démarrons
-subchapter: 1
-title_subchapter: Au départ
-page_subchapter: 2
-title_page: L’Intelligence sait intelliger le Savoir
+layout: page
+book_nb: 1
+chapter: 3
+page_chapter: 1
+page_title: L’Intelligence sait intelliger le Savoir
 ---
 
 <br/>
