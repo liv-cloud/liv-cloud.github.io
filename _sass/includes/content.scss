@@ -1,9 +1,9 @@
-.pan-layout-content {
+.liv-content {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: var(--pan-layout-header-height);
-  bottom: var(--pan-layout-footer-height);
+  top: var(--liv-header-height);
+  bottom: var(--liv-footer-height);
   background-color: #FFF;
   padding: 20px;
   overflow: auto;

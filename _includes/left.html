@@ -1,27 +1,25 @@
-<section class="pan-layout-left">
-  <div class="pan-layout-left__top">
-    <div class="pan-layout-left__avatar">
-      {% if site.github.owner_gravatar_url %}
+<section class="liv-left">
+  <div class="liv-left__top">
+    <div class="liv-left__avatar">
       <img src="{{ site.avatar | default: site.github.owner_gravatar_url }}" alt="{{ site.title | default: site.github.owner_name }}">
-      {% endif %}
     </div>
     
-    <div class="pan-layout-left__info">
-      <h1 class="pan-layout-left__title">
+    <div class="liv-left__info">
+      <h1 class="liv-left__title">
         {{ site.title | default: site.github.owner_name }}
       </h1>
       
       {% if site.subtitle %}
-      <h3 class="pan-layout-left__subtitle">
+      <h3 class="liv-left__subtitle">
         {{ site.subtitle }}
       </h3>
       {% endif %}
     </div>
   </div>
   
-  <div class="pan-layout-left__middle">
+  <div class="liv-left__middle">
     {% if site.menu %}
-    <ul class="pan-layout-left__menu">
+    <ul class="liv-left__menu">
       {% for menu in site.menu %}
       <li data-menu-link="{{ menu.link }}">
         <a href="{{ menu.link | relative_url }}">{{ menu.text }}</a>
@@ -31,11 +29,11 @@
     {% endif %}
   </div>
   
-  <div class="pan-layout-left__bottom">
-    <div class="pan-layout-left__small">
+  <div class="liv-left__bottom">
+    <div class="liv-left__small">
       <span>GET IN TOUCH</span>
     </div>
-    <div class="pan-layout-left__social">
+    <div class="liv-left__social">
       {% if site.social_icons %}
       <ul>
         {% for social in site.social_icons %}
@@ -48,7 +46,7 @@
     </div>
   </div>
 
-  <div class="pan-layout-left__close">
-    <i class="fa fa-fw fa-times"></i>
+  <div class="liv-left__close">
+    <i class="fa fa-fw fa-times">Ainsi va la Vie</i>
   </div>
 </section>

@@ -1,12 +1,12 @@
 
-.pan-layout-left {
+.liv-left {
   display: block;
   position: absolute;
   top: 0px;
   bottom: 0px;
-  left: var(--pan-layout-left-left);
-  width: var(--pan-layout-left-width);
-  background-image: var(--pan-layout-left-background-image);
+  left: var(--liv-left-left);
+  width: var(--liv-left-width);
+  background-image: var(--liv-left-background-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,7 @@
     left: 0px;
     right: 0px;
     content: "";
-    background-color: var(--pan-layout-left-background-color);
+    background-color: var(--liv-left-background-color);
   }
 
   > * {
@@ -36,20 +36,20 @@
 
   &__top {
     top: 0px;
-    height: var(--pan-layout-left-top-height);
+    height: var(--liv-left-top-height);
   }
 
   &__middle {
-    top: var(--pan-layout-left-top-height);
-    bottom: var(--pan-layout-left-bottom-height);
-    border-top: var(--pan-layout-left-middle-border);
-    border-bottom: var(--pan-layout-left-middle-border);
+    top: var(--liv-left-top-height);
+    bottom: var(--liv-left-bottom-height);
+    border-top: var(--liv-left-middle-border);
+    border-bottom: var(--liv-left-middle-border);
     overflow-y: auto;
     overflow-x: visible;
   }
 
   &__bottom {
-    height: var(--pan-layout-left-bottom-height);
+    height: var(--liv-left-bottom-height);
     bottom: 0px;
 
     > * {
@@ -172,7 +172,7 @@
     color: #FFF;
     cursor: pointer;
     z-index: 10;
-    display: var(--pan-layout-left-close-btn-display);
+    display: var(--liv-left-close-btn-display);
   }
 
 }

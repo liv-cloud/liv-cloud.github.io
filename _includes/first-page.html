@@ -23,9 +23,9 @@
         <div class="item-first-page"
         style='top: {%- cycle "pos_top": "35vh", "35vh", "35vh", "60vh", "60vh", "60vh", "95vh", "95vh", "95vh" -%};
         left: {% cycle "pos_left": "15%", "45%", "75%", "5%", "35%", "65%" %};'>
-          <a href="/index_book.html">
+          {%- include snippets/find_datas_books.md _book_nb=_book.book_nb _data="book_title" -%}
+          <a href="/index_book.html#{{ __return | escape }}">
             <div class="img-item-first-page">
-              {%- include snippets/find_datas_books.md _book_nb=_book.book_nb _data="book_title" -%}
               <h2 class="text-item-first-page">{{ __return }}</h2>
             </div>
           </a>

@@ -46,7 +46,7 @@ h6 { font-size: .6rem; }
   font-weight: lighter;
 }
 
-.pan-layout {
+.liv {
   display: block;
   position: absolute;
   top: 0px;
@@ -73,9 +73,9 @@ h6 { font-size: .6rem; }
   }
   
   &.pan-menu-open {
-    --pan-layout-left-left: 0px;
-    --pan-layout-right-left: var(--pan-layout-left-width);
-    --pan-layout-right-right: calc(var(--pan-layout-left-width) * -1);
+    --liv-left-left: 0px;
+    --liv-right-left: var(--liv-left-width);
+    --liv-right-right: calc(var(--liv-left-width) * -1);
     --pan-overlay-display: block;
   }
 }

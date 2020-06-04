@@ -3,11 +3,13 @@
       book_title: default
       book_theme : default
       chapters:
+        0: Introduction # valeur "0" nécessaire !
         1: Tous
 
 - book_number: # [1]
     book_title: Le Livre
     book_theme : le_livre1
+    id: lelivre
     chapters:
       0: Introduction # valeur "0" nécessaire !
       1: Démarrons
@@ -17,6 +19,7 @@
 - book_number: # [2]
     book_title: Le Livre de la Vie
     book_theme : le_livre2
+    id: Le_Livre_de_la_Vie
     chapters:
       0: Introduction # valeur "0" nécessaire !
       1: # indéterminé

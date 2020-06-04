@@ -2,20 +2,20 @@
 :root {
   --pan-color: #090;
 
-  --pan-layout-left-width: 100vw;
-  --pan-layout-left-left: calc(var(--pan-layout-left-width) * -1);
-  --pan-layout-left-background-color: rgba(0, 122, 204, .7);
-  --pan-layout-left-background-image: url(../images/left-background.png);
-  --pan-layout-left-top-height: 300px;
-  --pan-layout-left-bottom-height: 70px;
-  --pan-layout-left-middle-border: 1px solid rgba(255, 255, 255, .3);
-  --pan-layout-left-close-btn-display: block;
+  --liv-left-width: 100vw;
+  --liv-left-left: calc(var(--liv-left-width) * -1);
+  --liv-left-background-color: none;
+  --liv-left-background-image: url(../images/left-background.png);
+  --liv-left-top-height: 300px;
+  --liv-left-bottom-height: 70px;
+  --liv-left-middle-border: 1px solid rgba(255, 255, 255, .3);
+  --liv-left-close-btn-display: block;
 
-  --pan-layout-right-left: 0px;
-  --pan-layout-right-right: 0px;
+  --liv-right-left: 0px;
+  --liv-right-right: 0px;
 
-  --pan-layout-header-height: 50px;
-  --pan-layout-footer-height: 30px;
+  --liv-header-height: 50px;
+  --liv-footer-height: 30px;
 
   --pan-menutoggle-display: block;
   --pan-overlay-display: none;
@@ -24,17 +24,17 @@
 
 @media (min-width: pan-device(sm)) {
   :root {
-    --pan-layout-left-width: 340px;
-    --pan-layout-left-close-btn-display: none;
+    --liv-left-width: 340px;
+    --liv-left-close-btn-display: none;
   }
 }
 
 
 @media (min-width: pan-device(md)) {
   :root {
-    --pan-layout-left-left: 0px;
+    --liv-left-left: 0px;
 
-    --pan-layout-right-left: var(--pan-layout-left-width);
+    --liv-right-left: var(--liv-left-width);
 
     --pan-menutoggle-display: none;
   }
