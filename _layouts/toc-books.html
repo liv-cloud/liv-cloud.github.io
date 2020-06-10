@@ -1,20 +1,54 @@
 ---
 layout: default
 ---
+<head>
+    <link rel="stylesheet" href="{{ 'assets/css/toc-book.css' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+</head>
 
 <!--récupérer tous les books dans /data/my_books.yml -->
 {%- assign _tmp = site.data.my_books.size | minus: 1 -%}
-{% for i in (0.._tmp) %}
-    {%- include snippets/find_datas_books.md _book_nb=i _data="book_title" -%}
-    <h1 id="{{ __return | escape }}"><br/>{{ site.data.my_books[i].book_number.book_title }}</h1>
+<div class="liv-tocbooks liv-tocbooks-books">
+    {% for i in (0.._tmp) %}
+        {%- if i == 0 -%}
+        <div id="book_{{ i }}" class="liv-tocbooks liv-tocbooks-book" style="display: none;">
+        {%- else -%}
+        <div id="book_{{ i }}" class="liv-tocbooks liv-tocbooks-book">
+        {%- endif -%}
 
-    {%- assign _tmp1 = site.data.my_books[i].book_number.chapters.size | minus: 1 -%}
-    {% for j in (0.._tmp1) %}
-        <h2>--> {{ site.data.my_books[i].book_number.chapters[j] }}</h2>
-        {%- include snippets/find_books.md _book_nb=i _chapter_nb=j -%}
-        {%- for _book in __return -%}
-            <div>--> page:{{_book.page_chapter}} : <a href={{ _book.url }}> {{_book.page_title}}</a></div>
-        {%- endfor -%}
+            <div class="liv-tocbooks-book-img">
+                {%- if site.data.my_books[i].book_number.book_icon -%}
+                    <img src="{{ site.data.my_books[i].book_number.book_icon }}">
+                {%- endif -%}
+            </div>
+
+            <div class="liv-tocbooks liv-tocbooks-book-title">
+                <h1>{{ site.data.my_books[i].book_number.book_title }}</h1>
+            </div>
+
+            <!-- énumération des chapitres -->
+            {%- assign _tmp1 = site.data.my_books[i].book_number.chapters.size | minus: 1 -%}
+            {% for j in (0.._tmp1) %}
+                <div class="liv-tocbooks liv-tocbooks-book-chapter-img">
+                {%- if site.data.my_books[i].book_number.chapter_icons[j] -%}
+                    <img src="{{ site.data.my_books[i].book_number.chapter_icons[j] }}">
+                {%- endif -%}
+                </div>
+                <div id="book_{{ i }}_chapter_{{ j }}" class="liv-tocbooks liv-tocbooks-book-chapter-title">
+                    <h2>Chapitre : {{ site.data.my_books[i].book_number.chapters[j] }}</h2>
+                </div>
+                
+                <!-- énumération des pages -->
+                {%- include snippets/find_books.md _book_nb=i _chapter_nb=j -%}
+                {%- for _book in __return -%}
+                    <div class="liv-tocbooks liv-tocbooks-book-chapter-page-title">
+                        <a href={{ _book.url }}>
+                            <h3>page:{{_book.page_chapter}} : {{_book.page_title}}</h3>
+                        </a>
+                    </div>
+                {%- endfor -%}
+
+            {%- endfor -%}
+        </div>
     {%- endfor -%}
-{%- endfor -%}
-<!-- récupérer tous les fichiers des books -->
+</div>
+

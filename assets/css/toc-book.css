@@ -1,0 +1,56 @@
+
+.liv-tocbooks{
+    box-sizing: border-box;
+    color: #000;
+}
+
+.liv-tocbooks-books {
+}
+
+.liv-tocbooks-book {
+    display: grid;
+    grid-template-columns: 64px 64px 64px 1fr;
+    grid-gap: 10px;
+    margin-top: 2em;
+    border-top: 1px solid;
+    padding-top: 2em;
+}
+
+.liv-tocbooks-book-img{
+    grid-column: 1;
+}
+
+.liv-tocbooks-book-title{
+    grid-column: 2/5;
+    padding-left: 2em;
+}
+
+.liv-tocbooks-book-chapter{
+}
+
+.liv-tocbooks-book-chapter-img{
+    grid-column: 2;
+    width: 64px;
+}
+
+.liv-tocbooks-book-chapter-content{
+    position: relative;
+}
+
+.liv-tocbooks-book-chapter-title{
+    grid-column: 3/5;
+    padding-left: 15px;
+}
+
+.liv-tocbooks-book-chapter-pages{
+}
+
+.liv-tocbooks-book-chapter-page{
+    grid-column: 3/5;
+    padding-left: 15px;
+}
+
+.liv-tocbooks-book-chapter-page-title{
+    grid-column: 4;
+    padding-left: 15px;
+}

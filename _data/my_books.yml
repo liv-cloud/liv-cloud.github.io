@@ -1,33 +1,51 @@
 
 - book_number: # [0]
-      book_title: default
-      book_theme : default
-      chapters:
+    book_title: default
+    book_theme : default
+    book_icon :
+    chapters:
         0: Introduction # valeur "0" nécessaire !
         1: Tous
+    chapter_icons:
+        0: # valeur "0" nécessaire !
+        1: 
+    
 
 - book_number: # [1]
     book_title: Le Livre
     book_theme : le_livre1
-    id: lelivre
+    book_icon : assets/images/svg/jimmiet-Big-Book.svg
     chapters:
-      0: Introduction # valeur "0" nécessaire !
-      1: Démarrons
-      2: Les origines
-      3: psychotons
+        0: Introduction # valeur "0" nécessaire !
+        1: Démarrons
+        2: Les origines
+        3: Psychotons
+    chapter_icons:
+        0: # valeur "0" nécessaire !
+        1: 
+        2: 
+        3: assets/images/svg/Sketched-Brain-Silhouette_64px.png
 
 - book_number: # [2]
     book_title: Le Livre de la Vie
     book_theme : le_livre2
-    id: Le_Livre_de_la_Vie
+    book_icon :
     chapters:
-      0: Introduction # valeur "0" nécessaire !
-      1: # indéterminé
+        0: # valeur "0" nécessaire !
+        1: # indéterminé
+    chapter_icons:
+        0: # valeur "0" nécessaire !
+        1: # indéterminé
 
 - book_number: # [3]
     book_title: La poésie au quotidien
     book_theme : le_livre3
+    book_icon :
     chapters:
-      0: Introduction # valeur "0" nécessaire !
-      1: Rubayait
-      2: In life
+        0: Introduction # valeur "0" nécessaire !
+        1: Rubayait
+        2: In life
+    chapter_icons:
+        0: # valeur "0" nécessaire !
+        1: 
+        2: 
