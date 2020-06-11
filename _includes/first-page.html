@@ -3,33 +3,27 @@
     <!-- begin page home classic / in "/_config.yml" / -->
     {% if site.menu %}
       {% for menu in site.menu %}
-        <div class="item-first-page" style='top: 10vh; left: {%- cycle "_line1_pos_left": "5%", "35%", "65%" -%};'>
-          <a href="{{ menu.link | relative_url }}">
-            <div class="img-item-first-page">
+            <div class="item-first-page" style='grid-area: {%- cycle "a", "b", "c", "d", "e", "f" -%};'>
+              <a href="{{ menu.link | relative_url }}">
                 <h2 class="text-item-first-page">{{ menu.text }}</h2>
+              </a>
             </div>
-          </a>
-        </div>
       {% endfor %}
     {% endif %}
 
     <!-- end page home classic -->
     
-    <!-- loop on books / See in "/_books/""all "book_nb" unless they exist or not in "/_data/my_books.yml" -->
+    <!-- loop on books / See in "/_books/" all "book_nb" unless they exist or not in "/_data/my_books.yml" -->
     {%- assign _menu_books = site.books | sort: "book_nb" -%}
     {%- assign _prec_nb = "" -%}
     {%- for _book in _menu_books -%}
       {%- unless _book.book_nb == _prec_nb -%}
-        <div class="item-first-page"
-        style='top: {%- cycle "pos_top": "35vh", "35vh", "35vh", "60vh", "60vh", "60vh", "95vh", "95vh", "95vh" -%};
-        left: {% cycle "pos_left": "15%", "45%", "75%", "5%", "35%", "65%" %};'>
           {%- include snippets/find_datas_books.md _book_nb=_book.book_nb _data="book_title" -%}
-          <a href="/index_book.html#{{ __return | escape }}">
-            <div class="img-item-first-page">
+          <div class="item-first-page" style='grid-area: {%- cycle "a", "b", "c", "d", "e", "f" -%};'>
+            <a href="/index_book.html#{{ __return | escape }}">
               <h2 class="text-item-first-page">{{ __return }}</h2>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
         {%- assign _prec_nb = _book.book_nb -%}
       {%- endunless -%}
     {%- endfor -%}

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <head>
     <link rel="stylesheet" href="{{ 'assets/css/toc-book.css' | relative_url }}" media="screen" type="text/css">
 </head>
@@ -34,7 +35,7 @@ layout: default
                 {%- endif -%}
                 </div>
                 <div id="book_{{ i }}_chapter_{{ j }}" class="liv-tocbooks liv-tocbooks-book-chapter-title">
-                    <h2>Chapitre : {{ site.data.my_books[i].book_number.chapters[j] }}</h2>
+                    <h2>{{ site.data.my_books[i].book_number.chapters[j] }}</h2>
                 </div>
                 
                 <!-- énumération des pages -->
@@ -42,11 +43,10 @@ layout: default
                 {%- for _book in __return -%}
                     <div class="liv-tocbooks liv-tocbooks-book-chapter-page-title">
                         <a href={{ _book.url }}>
-                            <h3>page:{{_book.page_chapter}} : {{_book.page_title}}</h3>
+                            <h3>{{_book.page_chapter}} : {{_book.page_title}}</h3>
                         </a>
                     </div>
                 {%- endfor -%}
-
             {%- endfor -%}
         </div>
     {%- endfor -%}
