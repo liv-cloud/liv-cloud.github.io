@@ -16,8 +16,8 @@ body{
 }
 div.content-first-page{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5em;
     min-height: 100vh;
     margin: 10rem;
 }
@@ -26,12 +26,14 @@ div.item-first-page{
     display: flex;
     flex-flow: column;
     background-image:url('/assets/images/nuageA.png');
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
+    align-items: center;
+    padding: 4em;
+    text-align: center;
+    font-size: x-large;
 }
 
 h2.text-item-first-page{
-    position: center center;
     text-align: center;
     padding: 2em;
-    min-width: fit-content;
 }

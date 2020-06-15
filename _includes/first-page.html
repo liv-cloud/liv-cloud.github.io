@@ -3,12 +3,12 @@
     <!-- begin page home classic / in "/_config.yml" / -->
     {% if site.menu %}
       {% for menu in site.menu %}
-            <div class="item-first-page">
-              <a href="{{ menu.link | relative_url }}">
-                <h2 class="text-item-first-page">{{ menu.text }}</h2>
-              </a>
+      <a href="{{ menu.link | relative_url }}">
+        <div class="item-first-page">
+                {{ menu.text }}
             </div>
-      {% endfor %}
+          </a>
+          {% endfor %}
     {% endif %}
 
     <!-- end page home classic -->
@@ -19,11 +19,11 @@
     {%- for _book in _menu_books -%}
       {%- unless _book.book_nb == _prec_nb -%}
           {%- include snippets/find_datas_books.md _book_nb=_book.book_nb _data="book_title" -%}
-          <div class="item-first-page">
-            <a href="/index_book.html#{{ __return | escape }}">
-              <h2 class="text-item-first-page">{{ __return }}</h2>
-            </a>
-          </div>
+          <a href="/index_book.html#{{ __return | escape }}">
+            <div class="item-first-page">
+              {{ __return }}
+            </div>
+          </a>
         {%- assign _prec_nb = _book.book_nb -%}
       {%- endunless -%}
     {%- endfor -%}
