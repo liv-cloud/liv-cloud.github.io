@@ -15,7 +15,7 @@ Seulement, il va être sujet à contreverse.<br/>
 Normal ! L'accessibilité à mes idées offertes aux non-initiés à une pensée exploratrice m'offrira à la pature de toutes les personnes se croyant détentrice du savoir !<br/>
 Les pires étant les pseudos-scientifiques, toutes ces personnes savantes du savoir des autres qui n'ont pas l'intelligence créatrice mais juste la capacité à répéter conscieusement un savoir durement acquis. Ces personnes donnent der la raison à ce qui entrent dans leurs fonctionnements et, assurément, mon fonctionnement n'en fait pas partie.<br/>
 <br/>
-Pour arriver à me lire, sans se sentir ni au-dessus, ni dénigrer, ni jugeant et encore moins dénigrant,  je vous remercierai d'avoir l'indulgence d'aller par vous-même chercher les infos qui chagrinent, de vérifier mes dires en trouvant les sources qui vous manquent.<br/>
+Pour arriver à me lire, sans se sentir ni au-dessus, ni dénigrant ou jugeant, je vous remercierai vivement d'avoir l'indulgence d'aller par vous-même chercher les infos qui chagrinent, de vérifier mes dires en trouvant les sources qui vous manquent.<br/>
 <br/>
 Par Liv<br/>
 <div style="text-align: center;"><font color="#4B0082" face="URW Chancery L">
