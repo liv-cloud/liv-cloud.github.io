@@ -1,5 +1,5 @@
 
-- book_number: # [0]
+- book_number: # [0] valeur "0" nécessaire !
     book_title: default
     book_theme : default
     book_icon :
@@ -20,11 +20,13 @@
         1: Démarrons
         2: Les origines
         3: Psychotons
+        4: Faisons court
     chapter_icons:
         0: # valeur "0" nécessaire !
         1: 
         2: 
         3: assets/images/svg/Sketched-Brain-Silhouette_64px.png
+        4:
 
 - book_number: # [2]
     book_title: Le Livre de la Vie
